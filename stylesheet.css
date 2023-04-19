@@ -1,0 +1,130 @@
+html {
+    background-color: #333333;
+  }
+
+body {
+    font-family: monospace;
+    background-color: #333333;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px cyan;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: cyan;
+    color: black;
+    box-shadow: 0 5px 15px deeppink;
+  }
+
+
+  h2 {
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px cyan;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    margin-right: 5px;
+    box-shadow: 0 0 3px 0 #bfbfbf;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 6px 0 cyan;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: deeppink;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    font-size: 17px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 40px;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 30px;
+    margin-left: 20px;
+    order: -1;
+  }
+  
+  li span {
+    margin-right: 10px;
+  }
+  
+  li.completed {
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  .completed input[type="checkbox"] {
+    background-color: #4CAF50;
+    text-decoration: line-through;
+  }
+
+  #clear-completed-tasks {
+    padding: 5px 10px;
+    background-color: deeppink;
+    color: white;
+    box-shadow: 0 0 10px cyan;
+  }
